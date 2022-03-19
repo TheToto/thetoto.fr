@@ -2,10 +2,10 @@
     "firstname": "Thomas",
     "lastname": "Lupin",
     "pseudo": "TheToto",
-    "short_bio_md": "étudiant en ingénieurie\n informatique à l'[EPITA](https://epita.fr \"Site web d'EPITA\").",
+    "short_bio_md": "ingénieur en informatique\nactuellement chez Ubisoft Paris",
     "avatar_thumb": "./images/avatar.png",
-    "avatar_url": "https://files.thetoto.fr/private/avatar.png",
-    "email": "mail@thetoto.fr",
+    "avatar_url": "https://www.gravatar.com/avatar/ebfcf7dc58acf3fb71f30088d5f18439?s=400",
+    "email": "contact@thetoto.fr",
     "links": [
        {
           "icon": "nf nf-fa-facebook_square",
@@ -25,7 +25,7 @@
        },
        {
           "icon": "nf nf-fa-envelope",
-          "url": "mailto:mail@thetoto.fr"
+          "url": "mailto:contact@thetoto.fr"
        }
     ]
  }
