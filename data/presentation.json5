@@ -1,0 +1,48 @@
+[
+    {
+        "type": "text",
+        "title": "Bonjour",
+        "md": "Bienvenue sur mon site web perso."
+    },
+    { "type": "separator" },
+    {
+        "type": "split",
+        "title": "Informations",
+        "items": [
+            { "type": "text", "title": "A propos", "md": "[Insérer un super paragraphe... un jour]" },
+            {
+                "type": "skill",
+                "title": "Technologies",
+                "items": [
+                    {
+                        "icons": ["nf-mdi-language_typescript"],
+                        "hints": ["TypeScript (NodeJS)"],
+                        "count": 4.5
+                    },
+                    {
+                        "icons": ["nf-mdi-language_csharp"],
+                        "hints": ["C#"],
+                        "count": 4.5
+                    },
+                    {
+                        "icons": ["nf-custom-c", "nf-dev-rust", "nf-linux-docker"],
+                        "hints": ["C", "Rust", "Docker"],
+                        "count": 4,
+                        "heart": true
+                    },
+                    {
+                        "icons": ["nf-linux-archlinux", "nf-dev-git"],
+                        "hints": ["Linux (ArchLinux)", "Git"],
+                        "count": 4.5,
+                        "heart": true
+                    },
+                    {
+                        "text": "Learn new things",
+                        "count": 5,
+                        "heart": true
+                    }
+                ]
+            }
+        ]
+    }
+]

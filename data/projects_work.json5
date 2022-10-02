@@ -1,0 +1,39 @@
+{
+    "type": "projects",
+    "title": "Projets professionels",
+    "items": [
+        {
+            "name": "Anvil Pipeline",
+            "description": "Moteur de jeu, derière les triple A Ubisoft. Je participe à ce projet en tant que Tools Programer.",
+            "img": "./images/thumbs/anvil.png",
+            "icons": ["nf-mdi-language_csharp"],
+            "floating": {
+                "icon": "nf-fa-external_link",
+                "url": "https://www.ubisoft.com/fr-fr/company/how-we-make-games/technology",
+                "name": "Informations"
+            }
+        },
+        {
+            "name": "Wild Arena Survivors",
+            "description": "Jeu mobile Ubisoft. J'ai participé à ce projet en tant que Tools Programer.",
+            "img": "./images/thumbs/wildcall.png",
+            "icons": ["nf-mdi-language_csharp", "nf-mdi-language_typescript"],
+            "floating": {
+                "icon": "nf-fa-download",
+                "url": "https://www.ubisoft.com/fr-fr/game/wild-arena-survivors",
+                "name": "Site du jeu"
+            }
+        },
+        {
+            "name": "IBAN Recognition",
+            "description": "Conception d'une API permettant d'extraire l'IBAN d'un RIB à l'aide de la reconnaissance optique de caractères. Utilisation de Amazon Web Services (AWS Lambda) pour le déploiement.\n_Elle permettra a Bouygues Télécom de proposer le scan de l'IBAN depuis leur application mobile._",
+            "img": "./images/thumbs/iban.png",
+            "icons": ["nf-mdi-nodejs", "nf-mdi-amazon"]
+        },
+        {
+            "name": "Intranet Assistant EPITA",
+            "description": "Dans le cadre de mon travail à EPITA en tant qu'assistant, j'ai maintenu l'intranet des assistants et une partie de l'infrastructure pendant 1 an.",
+            "icons": ["nf-dev-python", "nf-dev-react"]
+        }
+    ]
+}

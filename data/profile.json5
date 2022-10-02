@@ -1,0 +1,32 @@
+{
+    "type": "left_pane",
+    "firstname": "Thomas",
+    "lastname": "Lupin",
+    "pseudo": "TheToto",
+    "short_bio_md": "ingénieur en informatique\\\nactuellement chez Ubisoft Paris",
+    "avatar_thumb": "./images/avatar.png",
+    "avatar_url": "https://www.gravatar.com/avatar/ebfcf7dc58acf3fb71f30088d5f18439?s=400",
+    "email": "contact@thetoto.fr",
+    "links": [
+        {
+            "icon": "nf-fa-facebook_square",
+            "url": "https://facebook.com/thomaslupin"
+        },
+        {
+            "icon": "nf-fa-linkedin_square",
+            "url": "https://www.linkedin.com/in/tlupin/"
+        },
+        {
+            "icon": "nf-oct-mark_github",
+            "url": "https://github.com/Thetoto"
+        },
+        {
+            "icon": "nf-fa-youtube_play",
+            "url": "https://www.youtube.com/user/MtTheToto"
+        },
+        {
+            "icon": "nf-fa-envelope",
+            "url": "mailto:contact@thetoto.fr"
+        }
+    ]
+}
