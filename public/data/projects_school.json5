@@ -1,0 +1,96 @@
+{
+    type: "projects",
+    title: "Projets scolaires",
+    items: [
+        {
+            name: "Optimisation de driver",
+            description: "Optimisation d'un driver I2C pour l'ESP32 pour l'utilisation d'ArduPilot.",
+            icons: ["nf-custom-c"],
+        },
+        {
+            name: "Conduite avec OpenCV",
+            description: "Navigation et évitement d'obstacle d'une voiture miniature avec à l'aide d'OpenCV.",
+            icons: ["nf-custom-c", "nf-dev-react"],
+        },
+        {
+            name: "Elves Must Live",
+            description: "Un jeu vidéo de \"Tower Defense\" créé sous **Unity3D** lors de ma première année à l'EPITA. Consultez le site web pour plus d'informations.",
+            img: "./images/thumbs/eml.png",
+            icons: ["nf-mdi-language_csharp", "nf-dev-unity_small"],
+            floating: {
+                icon: "nf-fa-external_link",
+                url: "https://elves-must-live.tk/",
+                name: "Site Web",
+            },
+            links: [
+                {
+                    name: "Github",
+                    url: "https://github.com/Thetoto/Elves-Must-Live",
+                },
+                {
+                    name: "Playlist Youtube",
+                    url: "https://www.youtube.com/watch?v=Hl6p07GA4Yk&list=PLTGwNGYPtQzu4s3vKDsgfxsrP_ReuP-Zf",
+                },
+            ],
+        },
+        {
+            name: "Eye of the Graeae",
+            description: "Eye of the Graeae est un logicel de reconnaissance optique de caractères (OCR) basé sur la technologie des réseaux de neurones. (Proof of concept)",
+            img: "./images/thumbs/eye.png",
+            icons: ["nf-custom-c"],
+            floating: {
+                icon: "nf-oct-mark_github",
+                url: "https://github.com/Thetoto/Eye-of-the-Graeae",
+                name: "GitHub",
+            },
+        },
+        {
+            name: "42sh (shell interactif)",
+            description: "42sh, un projet phare de l'EPITA, est un shell (style BASH) développé en C.",
+            icons: ["nf-custom-c"],
+            links: [
+                {
+                    name: "GitHub",
+                    url: "https://github.com/Thetoto/42sh",
+                },
+            ],
+        },
+        {
+            name: "Spider Web Server (httpd)",
+            description: "Spider est un server HTTP écrit en C++. Il gère le reverse proxy, un nombre de vhost illimité, ainsi que le HTTPS (SSL/TLS)",
+            icons: ["nf-custom-cpp"],
+            links: [
+                {
+                    name: "GitHub",
+                    url: "https://github.com/Thetoto/httpd",
+                },
+            ],
+        },
+        {
+            name: "Site de billetterie",
+            description: "Un site web en Django (Python).\nUn gros projet qui comprend : Un site de billetterie, où l'on peut déposer des events et s'y inscrire et une application mobile pour vérifier les tickets.",
+            icons: ["nf-dev-python", "nf-dev-django"],
+            links: [
+                {
+                    name: "Github",
+                    url: "https://github.com/bible-white-corp/yakabible",
+                },
+                {
+                    name: "Site en ligne",
+                    url: "http://yakabible.thetoto.fr/",
+                },
+            ],
+        },
+        {
+            name: "K (kernel)",
+            description: "Un kernel 'from-scratch' en C et assembleur, où nous devions implémenter différents syscalls et drivers. D'un driver serial pour le syscall `write`, puis la gestion de la mémoire et des interruptions, jusqu'à un driver ATAPI pour charger des ROM en mémoire, et passer en Userland. Plus d'info sur le support de cours ci-dessous.",
+            icons: ["nf-custom-c"],
+            links: [
+                {
+                    name: "Support de cours",
+                    url: "https://k.lse.epita.fr/",
+                },
+            ],
+        },
+    ],
+}

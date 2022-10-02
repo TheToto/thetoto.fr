@@ -1,0 +1,30 @@
+{
+    type: "website_data",
+    leftPane: { type: "import", import: "profile.json5" },
+    content: [
+        {
+            type: "import",
+            import: "presentation.json5",
+        },
+        { type: "separator" },
+        {
+            type: "import",
+            import: "projects_work.json5",
+        },
+        { type: "separator" },
+        {
+            type: "import",
+            import: "projects_perso.json5",
+        },
+        { type: "separator" },
+        {
+            type: "import",
+            import: "projects_school.json5",
+        },
+        { type: "separator" },
+        {
+            type: "import",
+            import: "timeline.json5",
+        },
+    ],
+}

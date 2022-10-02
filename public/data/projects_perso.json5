@@ -1,0 +1,103 @@
+{
+    type: "projects",
+    title: "Projets perso",
+    items: [
+        {
+            name: "Self Hosted",
+            description: "J'héberge chez moi un certain nombre de services pour mon utilisation personelle.\\\n[Gitea](https://git.thetoto.fr), [Server OpenID](https://auth.thetoto.fr), [NextCloud](https://cloud.thetoto.fr), [Plex](https://media.thetoto.fr), [Home Assistant](https://assistant.thetoto.fr), différents bots, VPN, ...",
+            icons: ["nf-dev-linux", "nf-fa-server"],
+            links: [
+                {
+                    name: "Github",
+                    url: "https://github.com/Thetoto/selfhosted",
+                },
+            ],
+        },
+        {
+            name: "PiouPiouz",
+            tags: ["eternaltwin"],
+            img: "./images/thumbs/pioupiouz.png",
+            description: "Réimplémentation d'un ancien jeu Flash de Motion Twin, fermé il y a plus de 10 ans.\\\nRétro-ingéniérie de fichiers SWF obfusqués, et de vielles technos internes.\\\n\\\nFait parti du projet EternalTwin, qui a pour but de sauver les anciens jeux Flash [Motion Twin](https://motion-twin.com/fr).",
+            icons: ["nf-fae-floppy"],
+            floating: {
+                name: "Site web",
+                icon: "nf-fa-external_link",
+                url: "https://pioupiouz.thetoto.fr",
+            },
+            links: [{ name: "GitLab", url: "https://gitlab.com/eternaltwin/pioupiouz/pioupiouz" }],
+        },
+        {
+            name: "Kube",
+            tags: ["eternaltwin"],
+            description: "Réimplémentation d'un ancien jeu Flash de Motion Twin.\\\nRétro-ingéniérie de fichiers SWF obfusqués, et de vielles technos internes.\\\n\\\nFait parti du projet EternalTwin, qui a pour but de sauver les anciens jeux Flash [Motion Twin](https://motion-twin.com/fr).",
+            icons: ["nf-fae-floppy"],
+            links: [{ name: "GitLab", url: "https://gitlab.com/eternaltwin/pioupiouz/pioupiouz" }],
+        },
+        // {
+        //     name: "C'est L'heure",
+        //     description: "Bot messenger et site Web où le but est d'envoyer en premier un message à des heures précises.\nDifférentes stats et graphiques sont présentés sur le site.\nLe site et le bot sont en Python/Django.",
+        //     img: "./images/thumbs/cestlheure.png",
+        //     icons: ["nf-dev-python", "nf-dev-django"],
+        //     floating: {
+        //         icon: "nf-oct-mark_github",
+        //         url: "https://github.com/Thetoto/cestlheure",
+        //         name: "GitHub",
+        //     },
+        //     links: [
+        //         {
+        //             name: "Site Web",
+        //             url: "https://cestlheure.tk/cestlheure/?month=7&year=2019",
+        //         },
+        //     ],
+        // },
+        // {
+        //     name: "Tranzat Creator",
+        //     description: 'Un site "créateur de personnage" pour créer un "Tranzat".',
+        //     img: "./images/thumbs/tranzat.png",
+        //     icons: ["nf-dev-html5", "nf-dev-javascript_badge"],
+        //     floating: {
+        //         icon: "nf-fa-external_link",
+        //         link: "https://tranzat.thetoto.fr/",
+        //         tooltip: "Site Web",
+        //     },
+        //     links: [
+        //         {
+        //             name: "Github",
+        //             url: "https://github.com/Thetoto/Tranzat-Creator",
+        //         },
+        //     ],
+        // },
+        {
+            name: "Animation Source app",
+            description: "Application android réalisée en React Native, par pur amusement. Elle permet de naviger sur le site [Animation Source](https://animationsource.org/) simplement sur mobile. Elle est accompagnée d'une API NodeJS (Web scraping) pour récupérer les informations.",
+            img: "/images/thumbs/asapp.png",
+            icons: ["nf-dev-nodejs_small", "nf-dev-react"],
+            floating: {
+                icon: "nf-oct-mark_github",
+                url: "https://github.com/Thetoto/AS_App",
+                name: "GitHub",
+            },
+            // links: [
+            //     {
+            //         name: "API Node.JS",
+            //         url: "https://github.com/Thetoto/AnimationSource-API",
+            //     },
+            //     {
+            //         name: "Vidéo de présentation",
+            //         url: "https://www.youtube.com/watch?v=VPIuTVG47_k",
+            //     },
+            // ],
+        },
+        {
+            name: "TheToto.fr",
+            description: "Le site web où vous naviguez actuellement.\\\nIl est développé en React/TypeScript et est complètement modulaire, et configuration à base de fichiers JSON.",
+            icons: ["nf-mdi-language_typescript", "nf-dev-react"],
+            links: [
+                {
+                    name: "Github",
+                    url: "https://github.com/Thetoto/thetoto.fr",
+                },
+            ],
+        },
+    ],
+}

@@ -1,58 +1,33 @@
 {
-  "name": "thetoto_website",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.3",
-    "vuetify": "^2.0.0",
-    "vuex": "^3.0.1"
-  },
-  "devDependencies": {
-    "@mdi/font": "^4.3.95",
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.6",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "sass": "^1.17.4",
-    "sass-loader": "^7.1.0",
-    "vue-cli-plugin-vuetify": "^0.6.3",
-    "vue-markdown": "^2.2.4",
-    "vue-masonry": "^0.11.8",
-    "vue-template-compiler": "^2.6.10",
-    "vuetify-loader": "^1.2.2"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
+    "name": "thetoto.fr",
+    "version": "1.0.0",
+    "description": "Website thetoto.fr",
+    "source": "src/index.html",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "format": "prettier -w src"
     },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
+    "dependencies": {
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/icons-material": "^5.10.3",
+        "@mui/lab": "^5.0.0-alpha.99",
+        "@mui/material": "^5.10.5",
+        "json5": "^2.2.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-markdown": "^8.0.3"
+    },
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+        "@types/react": "^18.0.14",
+        "@types/react-dom": "^18.0.5",
+        "@vitejs/plugin-react": "^2.1.0",
+        "prettier": "^2.6.2",
+        "process": "^0.11.10",
+        "typescript": "^4.7.4",
+        "vite": "^3.1.0"
     }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
 }
