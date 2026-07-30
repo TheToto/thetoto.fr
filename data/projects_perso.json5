@@ -68,27 +68,6 @@
         //     ],
         // },
         {
-            name: "Animation Source app",
-            description: "Application android réalisée en React Native, par pur amusement. Elle permet de naviger sur le site [Animation Source](https://animationsource.org/) simplement sur mobile. Elle est accompagnée d'une API NodeJS (Web scraping) pour récupérer les informations.",
-            img: "/images/thumbs/asapp.png",
-            icons: ["nf-dev-nodejs_small", "nf-dev-react"],
-            floating: {
-                icon: "nf-oct-mark_github",
-                url: "https://github.com/Thetoto/AS_App",
-                name: "GitHub",
-            },
-            // links: [
-            //     {
-            //         name: "API Node.JS",
-            //         url: "https://github.com/Thetoto/AnimationSource-API",
-            //     },
-            //     {
-            //         name: "Vidéo de présentation",
-            //         url: "https://www.youtube.com/watch?v=VPIuTVG47_k",
-            //     },
-            // ],
-        },
-        {
             name: "TheToto.fr",
             description: "Le site web où vous naviguez actuellement.\\\nIl est développé en React/TypeScript et est complètement modulaire, et configuration à base de fichiers JSON.",
             icons: ["nf-mdi-language_typescript", "nf-dev-react"],
